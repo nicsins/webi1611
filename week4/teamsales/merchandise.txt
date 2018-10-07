@@ -1,0 +1,50 @@
+uniforms | hats | sweatshirts
+
+--------------------------------------------------
+
+Team Sweatshirts Sales
+
+Boston Red Sox Sweatshirt
+Free Shipping!
+Our Price: $16.99
+
+NY Yankee Sweatshirt
+Free Shipping!
+Our Price: $16.99
+
+Atlanta Braves Sweatshirt
+Free Shipping!
+Our Price: $16.99
+
+--------------------------------------------------
+
+Team Baseball Hat Sales
+
+Boston Red Sox Baseball Hat
+Free Shipping!
+Our Price: $12.99
+
+Oakland A's Baseball Hat
+Free Shipping!
+Our Price: $12.99
+
+St. Louis Cardinals Baseball Hat
+Free Shipping!
+Our Price: $12.99
+
+---------------------------------------------------
+
+Team Uniform Sales
+
+Atlanta Braves Two Button Placket Team Uniform
+Free Shipping!
+Our Price: $20.99
+
+Florida Marlins Two Button Placket Team Uniform
+Free Shipping!
+Our Price: $20.99
+
+New York Yankees Two Button Placket Team Uniform
+Free Shipping!
+Our Price: $20.99
+

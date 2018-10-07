@@ -1,0 +1,12 @@
+/* h1 and h2 are grouped*/
+h1,h2{
+    color: green;
+}
+p{
+    color: gray;
+}
+ul li b{
+    color: red;
+}
+#myList li b{
+    color: blue ;}

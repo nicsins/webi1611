@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CSS Combinators</title>
+	<link rel="icon" href="../../images/Favinic.png">
+	<!-- In CSS + and > are called combinators -->
+<style type="text/css">
+    /*select all p elements where parents are ediv*/
+    div>p{color:blue;}
+    /*selects all p elements that's placed immediately after div*/
+    div+p{color:red;}
+</style>
+</head>
+
+<body>
+
+<div>
+<h1>Some Header Type</h1>
+<!-- this p is styled -->
+<p>This will be styled blue.</p>
+</div>
+
+<div>
+	<ul>
+		<li><p>This will not be styled.</p></li>
+		<li><p>This will not be styled.</p></li>
+		<li><p>This will not be styled.</p></li>
+	</ul>
+</div>
+
+<p>This will be styled red.</p>
+
+<div><p>This will be styled blue.</p></div>
+
+</body>
+</html>

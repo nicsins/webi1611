@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Classes</title>
+    <link rel="icon" href="images/Favinic.png">
+    <link rel="stylesheet" href="mycustomcss.css">
+    <style>
+        li.item1{
+            color:blue;}
+        /*wild card class tryt not to use unless it has a reason*/
+        .mycolor{
+            color:red;
+        }
+        .caps{
+            font-variant: small-caps;
+        }
+        .underline{
+            text-decoration: underline;
+        }
+
+
+    </style>
+</head>
+<body>
+<h1>This is  a title</h1>
+
+<h2 class="mycolor">This is  a title</h2>
+<!--ul>li*3 tab = blow-->
+<ul>
+    <li class="item1">something 1</li>
+    <li><b>something 2</b></li>
+    <li class="item1">something 3</li>
+</ul>
+<ul id="myList">
+    <li>something 1</li>
+    <li><b>something 2</b></li>
+    <li class="mycolor caps underline">something 3</li>
+</ul>
+<p>Minneapolis Community and Technical College is <b>Minnesota's</b> most <span class="underline caps ">comprehensive two-year urban college.</span> Located in the heart of downtown Minneapolis, its dynamic campus is easily accessible by public transportation. Find your path </p>
+
+</body>
+</html>

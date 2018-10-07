@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS margin collapse</title>
+    <link rel="icon" href="../../images/Favinic.png">
+    <style>
+        div{width:250px;
+            height: 250px;}
+        #div1{background-color: red;
+            margin-bottom: 30px;
+        }
+        /*margins collapse over each other*/
+        #div2{
+            background-color: blue;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<!--div#div$*2-->
+<div id="div1"></div>
+<div id="div2"></div>
+</body>
+</html>

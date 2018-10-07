@@ -1,0 +1,22 @@
+
+Vitamins
+Vitamin C
+500 Milligrams
+Quantity: 100 tablets
+Price: $1.50
+Quantity: 250 tablets
+Price<: $3.30
+1000 Milligrams
+Quantity: 100 tablets
+Price: $2.65
+Vitamin B-6
+50 Milligrams
+Quantity: 100 tablets
+Price: $1.40
+Quantity: 250 tablets
+Price: $3.25
+200 Milligrams
+Quantity: 100 tablets
+Price: $3.20
+Quantity: 250 tablets
+Price: $16.70

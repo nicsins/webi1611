@@ -1,0 +1,12 @@
+/* these are embedded styles*/
+h1{
+    color:blue;
+}
+/* # used to declare id */
+#header4{
+    color: red;
+}
+/* . used to declare class*/
+h1.myclass{
+    color: olive;
+}

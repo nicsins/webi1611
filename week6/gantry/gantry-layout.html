@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Day 7 Layout Project</title>
+<!-- html5shiv adds html5 semantic tags to the browser -->
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<style type="text/css">
+
+* {background-color: white;
+    color: darkblue;}
+
+#wrapper { width: 1200px;
+    background-color: darkblue;
+    padding:15px;
+    box-sizing: border-box;
+    margin:auto;}
+
+nav, header, #hero, #features, #know, footer {
+    margin:0;
+    padding:0;
+    background-color: gray;
+    margin-bottom: 30px;}
+
+nav {width:1170px;
+    height: 75px;}
+
+header {width:1170px;
+    height: 250px;
+    ;}
+
+#logo, #header_txt {background-color: black;
+                    height:250px;
+   }
+
+#logo {float: left;
+       width:440px;}
+
+#header_txt {
+    float: left;
+    width: 600px;
+    margin-left: 30px;
+    margin-right:100px;
+}
+
+#hero {width:1170px;
+        height: 400px;
+}
+
+#features {float: left;
+            width: 600px;
+            height: 400px;
+           }
+
+#know { width:540px;
+        height:400px;
+        float:left;
+        margin-left: 30px;}
+
+footer {width :1170px;
+        height: 75px;
+        clear: both;
+    margin-bottom: 15px ;}
+
+</style>
+</head>
+
+<body>
+<div id="wrapper">
+<nav>Navigation</nav>
+<header>
+	<div id="logo">Logo</div>
+    <div id="header_txt">Main Header Text</div>
+</header>
+
+<div id="hero">Hero Image</div>
+
+<article id="features">Key Features</article>
+
+<article id="know">Get to Know</article>
+
+<footer>Footer</footer>
+</div>
+</body>
+</html>

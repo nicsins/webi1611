@@ -1,0 +1,53 @@
+
+#wrapper{
+    width: 1200px;
+    height: 2000px;
+    background-color: lightgray;
+    padding:15px;
+    box-sizing: border-box;
+    margin:auto;}
+.container {
+    font-size: 1.5em;
+    min-height: 300px;
+    width: 100%;
+    background: LightGray;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 10px;
+    grid-template-areas:
+            "nav header"
+            "advert content"
+            "advert footer";
+}
+.header{
+    background: LightSkyBlue;
+    grid-area: header;
+}
+
+.item2 {
+    background: LightSalmon;
+    grid-area: advert;
+}
+
+.item3 {
+    background: PaleTurquoise;
+    grid-area: content;
+    /* enter your code below this line */
+
+    grid-template-columns: auto 1fr;
+    /* enter your code above this line */
+}
+
+.item4 {
+    background: lightpink;
+    grid-area: footer;
+}
+
+.itemOne {
+    background: PaleGreen;
+}
+
+.itemTwo {
+    background: BlanchedAlmond;
+}

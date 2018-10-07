@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Css Box Model</title>
+    <link rel="stylesheet" href="../../normalize.css">
+    <!-- Always place your reset css at the top of your css stack. (normalize.css is the reset css in this case)-->
+
+    <style>
+        /* *{margin: 0; padding: 0;}*/
+        #boxmodel{
+            width: 400px;
+            height: 400px;
+
+            border: 5px solid black;
+            border-right: 5px dashed cornflowerblue;
+
+            width: 80%;
+            min-width: 350px;
+            max-width: 500px;
+
+            /*min-height: 450px; scroll bar option*/
+            overflow: auto;
+
+            padding: 10px;
+
+            /* adds values clockwise starting from top */
+            padding: 10px 20px 10px 20px;
+
+            /*adds values to top/bottom left/right*/
+            padding: 10px 20px;
+
+            /*adds values top, left, right, bottom*/
+            padding: 10px 20px 10px;
+
+            padding-right: 20px;
+
+            box-sizing: border-box;
+
+            Margin: 10px;
+
+            /* adds values clockwise starting from top */
+            Margin: 10px 20px 10px 20px;
+
+            /*adds values to top/bottom left/right*/
+            Margin: 10px 20px;
+
+            /*adds values top, left, right, bottom*/
+            Margin: 10px 20px 10px;
+
+            Margin-right: 20px;
+
+            /* Some CSS3*/
+            border-radius: 10px 40px 10px 40px;
+
+            background-color: slategrey;
+
+            background-image: url(" bg.png");
+
+            background-repeat: no-repeat;
+
+            background-position: center center;
+
+            background-image: linear-gradient(45deg, CornFlowerBlue 0%, slategrey 100%);
+        }
+    </style>
+</head>
+<body>
+<div id="boxmodel">
+    <h1>Box Model</h1>
+
+
+</div>
+</body>
+</html>

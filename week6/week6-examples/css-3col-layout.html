@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css-2col-layout</title>
+    <style>
+        #wrapper{
+            width: 1200px;
+        background-color: lightgray;
+        padding:15px;
+            box-sizing: border-box;
+        margin:auto;}
+        header,nav,main,aside,footer{
+
+            margin:0;
+            padding:0;
+            background-color: gray;
+            margin-bottom: 30px;
+
+
+        }
+        header{ width:1170px;
+            height: 50px;}
+        nav{width:170px;
+            height: 250px;
+            float:left;
+            }
+        main{width: 670px;
+            height:250px;
+            float :left;
+            margin-left:30px;
+        }
+        aside{
+            height: 250px ;
+            width:270px;
+            float:left;
+            margin-left: 30px;
+        }
+        footer{width: 670px;
+            height:50px;
+            margin-left: 200px;
+        clear :both;}
+    </style>
+</head>
+<body>
+<!--div#wrapper>header+nav+main+footer-->
+<div id="wrapper">
+    <header>header</header>
+
+    <nav>navigation</nav>
+
+    <main>main</main>
+
+    <aside>sidebar</aside>
+
+    <footer>footer</footer>
+
+
+</div>
+
+</body>
+</html>

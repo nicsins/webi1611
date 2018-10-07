@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Font Properties</title>
+    <link rel="icon" href="../../images/Favinic.png">
+
+<style type="text/css">
+
+/*
+Font properties - Describes how letter forms look.
+
+I did the demo using id's instead of classes. Cover classes in CSSexample4.html
+id must be unique to the tag so classes have an advantage for that are reused.
+id's would be good for positioning with divs since every div would be unique.
+*/
+
+#fontproperty1 {font-family: arial, helvetica, sans-serif; font-size: 20px;}
+/*
+px,em,% or pt may be used when changing the font size in CSS.
+*/
+
+#fontproperty2 {font-style: italic; font-weight: bold;}
+/* other font-style: values - normal, italic or oblique
+
+Bold is the most common font-weight however these may be used:
+
+normal
+bold
+bolder
+lighter
+100
+200
+300 up to 900
+The numbers 100-900 may be used to indicate the darkness of the font. Although, I have personally tested each of these and the only ones that seem to work properly in browsers other than Internet Explorer are normal, bold and lighter.
+
+*/
+
+#fontproperty3 {font-variant: small-caps;}
+/* other font-variant: values - normal or small-caps */
+
+#fontproperty4 {font: italic small-caps bold 25px arial;}
+
+/*
+font shortcut property - required properties are font-size and font-family
+
+Instead of listing out all the font properties seperately you may use the font shortcut to list them all in one line. To do this, you must list the properties in this order:
+
+1. font-style
+2. font-variant
+3. font-weight
+4. font-size
+5. font-family
+
+*/
+
+</style>
+</head>
+
+<body>
+
+<p id="fontproperty1">font-family/font-size</p>
+
+<p id="fontproperty2">font-style/font-weight</p>
+
+<p id="fontproperty3">font-variant</p>
+
+<p id="fontproperty4">font shorthand property</p>
+</body>
+</html>
+
