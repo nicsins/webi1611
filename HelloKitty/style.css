@@ -1,0 +1,44 @@
+body{
+
+    font-family: "Comic Sans MS";
+    font-style: unset;
+    font-size: 20px;
+    color: blue;
+    margin: auto;
+    padding: auto;
+    alignment: center;
+}
+title{
+    font-size: 12px;
+}
+h1  {
+    font-family: Lobster, "Comic Sans MS";
+    font-size: 40px;
+    alignment: center;
+}
+.box{
+    size: auto;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    margin: 20px 40px 20px 40px;
+}
+.blue-box {
+    background-color: blue;
+    color: #fff;
+}
+
+.thick-blue-border {
+    border-color: blue;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 70%;
+}
+#wrapper{
+    width: 900px;
+    height: 1200px;
+    background-color: lightgray;
+    padding:15px;
+    box-sizing: border-box;
+    margin:auto;}

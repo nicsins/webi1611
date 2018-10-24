@@ -1,11 +1,14 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"> n
 <title>Day 7 Layout Project</title>
+
 <!-- html5shiv adds html5 semantic tags to the browser -->
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<style type="text/css">
+<!--<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+
+<style >
 
 * {background-color: white;
     color: darkblue;}
@@ -16,14 +19,14 @@
     box-sizing: border-box;
     margin:auto;}
 
-nav, header, #hero, #features, #know, footer {
+nav, header, #hero, #features, #know, footer ,h5{
     margin:0;
     padding:0;
     background-color: gray;
-    margin-bottom: 30px;}
+    margin-bottom: 15px;}
 
 nav {width:1170px;
-    height: 75px;}
+    height: 50px;}
 
 header {width:1170px;
     height: 250px;
@@ -44,29 +47,29 @@ header {width:1170px;
 }
 
 #hero {width:1170px;
-        height: 400px;
+        height: 300px;
 }
 
 #features {float: left;
             width: 600px;
-            height: 400px;
+            height: 300px;
            }
 
 #know { width:540px;
-        height:400px;
+        height:300px;
         float:left;
         margin-left: 30px;}
 
 footer {width :1170px;
-        height: 75px;
+        height: 50px;
         clear: both;
     margin-bottom: 15px ;}
 
 </style>
-</head>
+
 
 <body>
-<div id="wrapper">
+<div id="wrapper" >
 <nav>Navigation</nav>
 <header>
 	<div id="logo">Logo</div>
@@ -75,11 +78,22 @@ footer {width :1170px;
 
 <div id="hero">Hero Image</div>
 
-<article id="features">Key Features</article>
+<article id="features"><h5>Key Features</h5></article>
 
-<article id="know">Get to Know</article>
+<article id="know"><h5>Get to Know</h5></article>
 
 <footer>Footer</footer>
 </div>
+<div><!-- html validation  code starts here -->
+    <p>
+        <a href="http://validator.w3.org/check?uri=referer">Valid HTML 5</a>
+    </p>
+    <!-- html validation code ends here -->
+
+    <!-- css validation code starts here -->
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">Valid CSS</a>
+    </p>
+    <!-- css validation code ends here --></div>
 </body>
 </html>

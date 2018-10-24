@@ -10,6 +10,7 @@
     font-size: 1.5em;
     min-height: 300px;
     width: 100%;
+    height: 100%;
     background: LightGray;
     display: grid;
     grid-template-columns: auto 1fr;
@@ -21,16 +22,21 @@
             "advert footer";
 }
 .header{
+    width: 50%;
+    height: 10% ;
     background: LightSkyBlue;
     grid-area: header;
 }
+.nav{background-color: aqua
+}
 
-.item2 {
+.advert {
+
     background: LightSalmon;
     grid-area: advert;
 }
 
-.item3 {
+.main {
     background: PaleTurquoise;
     grid-area: content;
     /* enter your code below this line */
